@@ -1,0 +1,44 @@
+.mega--footer {
+  padding: 0;
+}
+
+.mega--footer--mobile {
+  display: none;
+}
+
+.mega--footer .top--icons, .mega--footer .bottom--icons {
+  float: left;
+  width: 100%;
+}
+
+.mega--footer .top--icons img {
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+
+.mega--footer .bottom--icons img {
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+
+.mega--footer li {
+  line-height: 1.8rem;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 480px) {
+  .mega--footer--mobile {
+    display: block;
+  }
+
+  .mega--footer--tablet {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1260px) {
+  .mega--footer--tablet {
+    display: block;
+  }
+}
